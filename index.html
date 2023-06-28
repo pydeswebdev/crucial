@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crucial Experiment || Home</title>
+    <link rel="icon" href="assets/images/dest/CrucialExperimentLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+<body>
+    <!-- Arrow Up -->
+    <button class="go-top-btn noselect">
+        <img src="assets/images/dest/arrow-up.png" alt="#">
+    </button>
+
+    <!-- Settings -->
+    <button class="settings-btn noselect toast-dev">
+        <img src="assets/images/dest/settings.png" alt="#">
+    </button>
+
+
+    <!-- Toast Notification -->
+    <div class="toast noselect">
+        <div class="toast-content">
+            <img class="toast-warning" src="assets/images/dest/warning.png" alt="#" draggable='false'>
+
+            <div class="toast-message">
+                <span class="text">the site is not fully ready yet, so this section of the site is not yet available</span>
+            </div>
+        </div>
+        <img class="toast-close" src="assets/images/dest/close.png" alt="#" draggable='false'>
+
+        <div class="toast-progress"></div>
+    </div>
+
+
+    <!-- Settings Modal -->
+    <!-- <div id="myModal">
+        <p>Контент</p>
+        <span id="myModal__close" class="close">ₓ</span>
+    </div>
+    <div id="myOverlay"></div> -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar noselect">
+        <div class="nav-container">
+            <div class="navbar__wrap">
+                <a class="navbar__logo" href="index.html">Crucial Experiment</a>
+
+                <ul class="navbar__menu">
+                    <li class="navbar__link">
+                        <a class="navbar__btn arrow" href="durka.html">The Durka</a>
+
+                        <ul class="dropdown__content">
+                            <li><a href="durka.html">Game</a>
+                                <!-- <ul class="dropdown__content_next">
+                                    <li><a href="#">Test</a></li>
+                                    <li><a href="#">Test 2</a></li>
+                                </ul> -->
+                            </li>
+                            <li class="toast-dev"><a href="#">Soundtrack</a></li>
+                            <li class="toast-dev"><a href="#">DLC</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="navbar__link">
+                        <a class="navbar__btn arrow toast-dev" href="#">Durka Simulator</a>
+
+                        <ul class="dropdown__content toast-dev">
+                            <li class="toast-dev"><a href="#">Game</a></li>
+                            <li class="toast-dev"><a href="#">DLC</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="navbar__link">
+                        <a class="navbar__btn" href="#">Testing Navbar Link</a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="navbar__wrap">
+                <div class="navbar__buttons">
+                    <button class="navbar__button toast-dev">
+                        <img src="assets/images/dest/publishing.png" alt="#">
+                    </button >
+                    <button class="navbar__button support">
+                        <img src="assets/images/dest/support.png" alt="#">
+                    </button >
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Banner -->
+    <section class="banner-section section noselect">
+        <div class="container">
+            <div class="banner">
+                <div class="img__group">
+                    <img class="img__group__bg" src="assets/images/dest/game_logo/library_hero_2x.jpg" draggable="false">
+                    <img class="img__group__title" src="assets/images/dest/game_logo/logo_russian_2x.png" draggable="false">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Game Statistics -->
+    <section class="game-stat section noselect">
+        <div class="container">
+            <div class="stat-bar">
+                <div class="overlay"></div>
+                <div class="ovelray-text"><h1>This game is still in development :)</h1></div>
+
+                <div class="stat-items grid">
+                    <div class="stat-item">
+                        <div class="stat-item-name">Players</div>
+                        <div class="stat-item-numb">0K+</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-item-name">Downloads</div>
+                        <div class="stat-item-numb">0K+</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-item-name">Added to wishlist</div>
+                        <div class="stat-item-numb">0K+</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-item-name">Purchases</div>
+                        <div class="stat-item-numb">0K+</div>
+                    </div>
+                </div>
+
+                <div class="stat-reviews grid">
+                    <div class="in-game">
+                        <div class="in-game-numb">0,000</div>
+                        <div class="in-game-title">In-Game</div>
+                    </div>
+                    <div class="reviews">
+                        <div class="reviews-ratio"><img src="assets/images/dest/happiness.png" alt="#">00.00%</div>
+                        <div class="reviews-group grid">
+                            <div class="reviews-positive">↑0</div>
+                            <div class="reviews-negative">↓0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- DevBlog -->
+    <section class="dev-blog_section section">
+        <div class="container">
+            <h1 class="section-name noselect">Our News</h1>
+            <div class="card__container grid">
+                <div class="card" onclick="window.open('https://steamcommunity.com/games/1595380/announcements/detail/3132820824649174402', '_blank');">
+                    <div class="card__cover noselect" style="background: #FFF url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/40701240/816bc2f3fd5f5974de1f114b9ea88f96b0e4e9c3.png); background-size: cover; background-position: center;"></div>
+                    <div class="card__body">
+                        <div class="card__title">DevBlog #1 - The beginning of a new story</div>
+                        <div class="card__desc">Now we want to tell you about changes in the price of the game from free to 9.99$. All players who already have it in the library will not need to buy it, but there is one limitation from Steam that you will not be able to receive trade cards and you will have to buy the game itself to get access to the cards.</div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.open('https://steamcommunity.com/games/1595380/announcements/detail/3217269675826533207', '_blank');">
+                    <div class="card__cover noselect" style="background: #FFF url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/40701240/780f5dcfe6903008c6a91a8f3ff313c5a620828e.png); background-size: cover; background-position: center;"></div>
+                    <div class="card__body">
+                        <div class="card__title">DevBlog #2 - Pineapple Truth</div>
+                        <div class="card__desc">This time we have bad news for the players who are waiting for the game. No matter how painful it was for us, but due to the lack of team and strength, we cannot continue working on the game, so it was decided to temporarily freeze the project until better times. It seems that this break will be long.</div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="window.open('https://steamcommunity.com/games/1595380/partnerevents/preview/3718324925893577928', '_blank');">
+                    <div class="card__cover noselect" style="background: #FFF url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans//40701240/438a90ff1e32fba066748a810be32af0001f8624.png); background-size: cover; background-position: center;"></div>
+                    <div class="card__body">
+                        <div class="card__title">DevBlog #3 - Are we alive?</div>
+                        <div class="card__desc">Now let's talk about the main game. We continue to work on the plot and design of the game, a lot of things had to be redone or rewritten, but we assure you it's worth it! Let's read a piece of the game script together to make sure that the developers have been doing something useful all these months.</div>
+                    </div>
+                </div>
+                <button class="button noselect" onclick="window.open('https://store.steampowered.com/news/app/1595380', '_blank');">All News</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us -->
+    <section class="form-contact-us section">
+        <div class="container">
+            <div class="form-wrapper">
+                <h1 class="section-name noselect">Contact Us</h1>
+                <form class="grid" action="#">
+                    <div class="field">
+                        <label class="noselect" for="e-mail">E-Mail:</label>
+                        <input class="noselect" type="text" placeholder="lorem.ipsum@mail.ru" id="e-mail" autocomplete="off">
+                    </div>
+                    <div class="field">
+                        <label class="noselect" for="phone-number">Phone Number:</label>
+                        <input class="noselect" type="text" placeholder="+X XXX XXX XX-XX" id="phone-number" autocomplete="off">
+                    </div>
+                    <!-- <div class="field">
+                        <label class="noselect" for="tg-name">Telegram:</label>
+                        <input class="noselect" type="text" placeholder="@user" id="tg-name" autocomplete="off">
+                    </div> -->
+
+                    <div class="user-message">
+                        <p class="textarea-label noselect">Message:</p>
+                        <textarea class="noselect" placeholder="Your massage..."></textarea>
+                    </div>
+
+                    <div class="button-area">
+                        <button class="button noselect" type="submit">Send Message</button>
+                        <small class="noselect">*Нажимая на кнопку, вы соглашаетесь с условиями о персональных данных</small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bg  noselect">
+            <div class="container">
+                <div class="footer-content">
+                    <h1 class="footer-logo"><a href="#">Crucial Experiment</a></h1>
+                    <ul class="footer-socials">
+                        <li class="footer-socials-item toast-dev"><a href="#">Publishing</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Support</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Contact Us</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Press Kit</a></li>
+                    </ul>
+                    <span class="footer-copyright">© Crucial Experiment, 2023</span>
+                    <p class="footer-product">Все упомянутые товарные знаки являются собственностью соответствующих владельцев</p>
+                    <p class="footer-prod toast-dev">Сайт разработан при поддержке <a href="#" class="footer-webdev">Python Design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.min.js"></script>
+</body>
+</html>

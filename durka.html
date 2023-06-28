@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crucial Experiment || Home</title>
+    <link rel="icon" href="assets/images/dest/CrucialExperimentLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+<body>
+    <!-- Arrow Up -->
+    <button class="go-top-btn noselect">
+        <img src="assets/images/dest/arrow-up.png" alt="#">
+    </button>
+
+    <!-- Settings -->
+    <button class="settings-btn noselect toast-dev">
+        <img src="assets/images/dest/settings.png" alt="#">
+    </button>
+
+
+    <!-- Toast Notification -->
+    <div class="toast noselect">
+        <div class="toast-content">
+            <img class="toast-warning" src="assets/images/dest/warning.png" alt="#" draggable='false'>
+
+            <div class="toast-message">
+                <span class="text">the site is not fully ready yet, so this section of the site is not yet available</span>
+            </div>
+        </div>
+        <img class="toast-close" src="assets/images/dest/close.png" alt="#" draggable='false'>
+
+        <div class="toast-progress"></div>
+    </div>
+
+
+    <!-- Settings Modal -->
+    <!-- <div id="myModal">
+        <p>Контент</p>
+        <span id="myModal__close" class="close">ₓ</span>
+    </div>
+    <div id="myOverlay"></div> -->
+    
+
+    <!-- Navbar -->
+    <nav class="navbar noselect">
+        <div class="nav-container">
+            <div class="navbar__wrap">
+                <a class="navbar__logo" href="index.html">Crucial Experiment</a>
+
+                <ul class="navbar__menu">
+                    <li class="navbar__link">
+                        <a class="navbar__btn arrow" href="durka.html">The Durka</a>
+
+                        <ul class="dropdown__content">
+                            <li><a href="durka.html">Game</a>
+                                <!-- <ul class="dropdown__content_next">
+                                    <li><a href="#">Test</a></li>
+                                    <li><a href="#">Test 2</a></li>
+                                </ul> -->
+                            </li>
+                            <li class="toast-dev"><a href="#">Soundtrack</a></li>
+                            <li class="toast-dev"><a href="#">DLC</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="navbar__link">
+                        <a class="navbar__btn arrow toast-dev" href="#">Durka Simulator</a>
+
+                        <ul class="dropdown__content toast-dev">
+                            <li class="toast-dev"><a href="#">Game</a></li>
+                            <li class="toast-dev"><a href="#">DLC</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="navbar__link">
+                        <a class="navbar__btn" href="#">Testing Navbar Link</a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="navbar__wrap">
+                <div class="navbar__buttons">
+                    <button class="navbar__button toast-dev">
+                        <img src="assets/images/dest/publishing.png" alt="#" draggable="false">
+                    </button >
+                    <button class="navbar__button support">
+                        <img src="assets/images/dest/support.png" alt="#" draggable="false">
+                    </button >
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="game-desc-section section">
+        <div class="container">
+            <div class="game-description grid">
+                <div class="game-desc__img noselect">
+                    <img src="assets/images/dest/game_logo/capsule_616x353.jpg" alt="#" draggable="false">
+                </div>
+                <div class="game-desc__text">
+                    <h1 class="game-name">The Durka: You will (not) die</h1>
+                    <div class="game-desc">
+                        The main character - Mickey, returns to his hometown by the end of the holidays.
+                        As soon as he arrived at the station, he was met there not only by friends,but also by his father, who decided to hire him to work for him. When he got home,
+                        Mickey noticed something sitting in his closet - a guy in a black suit,
+                        mask and holding out a pineapple in his hand. He said he would help, but in what way?
+                        Suddenly, the city is being attacked by giant robots of an unknown corporation!
+                        Not time, make a decision!
+                    </div>
+                    <div class="game-links noselect">
+                        <button class="button noselect" onclick="window.open('https://store.steampowered.com/app/1595380/The_Durka/', '_blank');"><img src="assets/images/dest/steam.png" draggable="false">Steam</button>
+                        <button class="button noselect" onclick="window.open('https://gamejolt.com/games/thedurka/712737', '_blank');"><img src="assets/images/dest/gamejolt.png" draggable="false">GameJolt</button>
+                        <button class="button noselect" onclick="window.open('https://vkplay.ru/play/game/thedurkadm/', '_blank');"><img src="assets/images/dest/vk-play.png" draggable="false">VK Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="form-contact-us section">
+        <div class="container">
+            <div class="form-wrapper">
+                <h1 class="section-name noselect">Contact Us</h1>
+                <form class="grid" action="#">
+                    <div class="field">
+                        <label class="noselect" for="e-mail">E-Mail:</label>
+                        <input class="noselect" type="text" placeholder="lorem.ipsum@mail.ru" id="e-mail" autocomplete="off">
+                    </div>
+                    <div class="field">
+                        <label class="noselect" for="phone-number">Phone Number:</label>
+                        <input class="noselect" type="text" placeholder="+X XXX XXX XX-XX" id="phone-number" autocomplete="off">
+                    </div>
+                    <!-- <div class="field">
+                        <label class="noselect" for="tg-name">Telegram:</label>
+                        <input class="noselect" type="text" placeholder="@user" id="tg-name" autocomplete="off">
+                    </div> -->
+
+                    <div class="user-message">
+                        <p class="textarea-label noselect">Message:</p>
+                        <textarea class="noselect" placeholder="Your massage..."></textarea>
+                    </div>
+
+                    <div class="button-area">
+                        <button class="button noselect" type="submit">Send Message</button>
+                        <small class="noselect">*Нажимая на кнопку, вы соглашаетесь с условиями о персональных данных</small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bg  noselect">
+            <div class="container">
+                <div class="footer-content">
+                    <h1 class="footer-logo"><a href="#">Crucial Experiment</a></h1>
+                    <ul class="footer-socials">
+                        <li class="footer-socials-item toast-dev"><a href="#">Publishing</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Support</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Contact Us</a></li>
+                        <li class="footer-socials-item toast-dev"><a href="#">Press Kit</a></li>
+                    </ul>
+                    <span class="footer-copyright">© Crucial Experiment, 2023</span>
+                    <p class="footer-product">Все упомянутые товарные знаки являются собственностью соответствующих владельцев</p>
+                    <p class="footer-prod toast-dev">Сайт разработан при поддержке <a href="#" class="footer-webdev">Python Design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.min.js"></script>
+</body>
+</html>
